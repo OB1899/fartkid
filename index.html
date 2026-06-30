@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisma Hussain - The Fart Kid</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Fredoka+One&display=swap');
+
+        body {
+            font-family: 'Comic Neue', cursive;
+            background-color: #fffae6;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            background: #ffffff;
+            border: 5px dashed #ff9900;
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 600px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-family: 'Fredoka One', cursive;
+            color: #d35400;
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 0px #f1c40f;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .image-container {
+            position: relative;
+            display: inline-block;
+            margin: 20px 0;
+        }
+
+        .kid-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            border: 5px solid #27ae60;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.1s;
+        }
+
+        .kid-img:hover {
+            /* Shake effect on hover */
+            animation: shake 0.5s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes shake {
+            0% { transform: translate(1px, 1px) rotate(0deg); }
+            10% { transform: translate(-1px, -2px) rotate(-1deg); }
+            20% { transform: translate(-3px, 0px) rotate(1deg); }
+            30% { transform: translate(3px, 2px) rotate(0deg); }
+            40% { transform: translate(1px, -1px) rotate(1deg); }
+            50% { transform: translate(-1px, 2px) rotate(-1deg); }
+            60% { transform: translate(-3px, 1px) rotate(0deg); }
+            70% { transform: translate(3px, 1px) rotate(-1deg); }
+            80% { transform: translate(-1px, -1px) rotate(1deg); }
+            90% { transform: translate(1px, 2px) rotate(0deg); }
+            100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+
+        .warning {
+            background-color: #e74c3c;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin: 20px 0;
+            animation: blinker 1.5s linear infinite;
+        }
+
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+
+        .content {
+            font-size: 1.3em;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            color: #c0392b;
+            font-weight: bold;
+        }
+
+        .stats {
+            background: #dff9fb;
+            border-radius: 15px;
+            padding: 15px;
+            margin-top: 20px;
+            text-align: left;
+            border: 2px solid #badc58;
+        }
+
+        .stats h3 {
+            color: #2c3e50;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        button {
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 50px;
+            cursor: pointer;
+            font-family: 'Fredoka One', cursive;
+            margin-top: 20px;
+            box-shadow: 0 5px 0px #219150;
+            transition: all 0.1s;
+        }
+
+        button:active {
+            transform: translateY(5px);
+            box-shadow: 0 0px 0px #219150;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bisma Hussain 💨</h1>
+        <div class="subtitle">A.K.A. "The Fart Kid" (Gas ki Dukaan)</div>
+
+        <div class="warning">⚠️ WARNING: TOXIC GAS ZONE AHEAD ⚠️</div>
+
+        <div class="image-container">
+            <!-- Verbatim file name reference as requested -->
+            <img src="WhatsApp Image 2026-06-30 at 7.21.01 PM.jpeg" alt="Bisma Hussain" class="kid-img">
+        </div>
+
+        <div class="content">
+            <p>Dekho is masoom chehre ko! Ekdum cute aur shareef lag rahi hai na? Par doston, is shakal pe mat jana. Yeh asli life ki <span class="highlight">biological weapon</span> hai!</p>
+            <p>Jab yeh choti thi, tab se isne "Global Warming" mein apna poora contribution diya hai. Ek baar isne engine start kiya, toh aas paas ke log seedha ICU mein!</p>
+        </div>
+
+        <div class="stats">
+            <h3>💨 Bisma's Superpowers 💨</h3>
+            <ul>
+                <li><strong>Silent but Deadly (SBD):</strong> Pata hi nahi chalta kab bomb phat gaya. Bas achanak aankhon se paani aane lagta hai.</li>
+                <li><strong>Awaaz ka Jaadu:</strong> Kabhi phat-phat trumpet 🎺, toh kabhi Diwali ka patakha 🎆.</li>
+                <li><strong>Area of Effect:</strong> 5 kilometer ka radius 10 second mein clear karne ki shakti. Room freshener bhi iske aage ro deta hai.</li>
+            </ul>
+        </div>
+
+        <button onclick="fartAlert()">Pull my finger! 👆</button>
+    </div>
+
+    <script>
+        function fartAlert() {
+            const messages = [
+                "Poooot! 💨 Bhaago bhai, hawa kharab ho gayi!",
+                "Bisma ne phir se gas leak kar di! 😷",
+                "PRRRRRRT! Nuclear launch detected! ☢️",
+                "Arey baap re! Kisne mooli ke parathe khilaye isko? 😭"
+            ];
+            const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+            alert(randomMessage);
+        }
+    </script>
+</body>
+</html>
